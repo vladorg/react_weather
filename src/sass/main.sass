@@ -1,0 +1,60 @@
+// @import "./modules/reset.sass"
+// @import "./modules/fonts.sass"
+
+
+
+html
+  font-size: 16px
+
+p
+  margin-bottom: 0
+
+#app
+  display: flex
+  flex-direction: column
+  align-items: flex-start
+  min-height: 100vh
+  > div
+    width: 100%
+
+
+.loader
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  display: flex
+  backdrop-filter: blur(4px)
+  &.loaded
+    opacity: 0
+    pointer-events: none
+  img
+    margin: auto
+    width: 100px
+
+.logo
+  text-decoration: none
+  cursor: pointer
+
+
+
+.content
+  padding: 42px 0
+
+.result
+  overflow: auto
+  max-height: 400px
+
+.widget
+  color: #525252
+  &__row
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 315px
+    margin: 0 auto
+  &__key
+    margin-right: 8px
+  &__val
+    font-weight: 600
