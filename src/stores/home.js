@@ -7,16 +7,7 @@ class Home {
     let root = stores;
 
     makeAutoObservable(this)
-
-    // makeObservable(this, {
-    //   data: observable,
-    //   init: action,
-    //   acceptWrite: action,
-    //   customWrite: action,
-    //   change: action,
-    //   customAccept: action,
-    //   search: action
-    // })
+    
   }
 
   data = {
