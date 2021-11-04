@@ -1,9 +1,26 @@
-<h1>Hi there!</h1>
-<p>This is weather react app.</p>
-<img width="150" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React">
+# react-weather
 
----
+This is a weather app with REST API.
 
-<p><a href="http://w99762ln.beget.tech/react-weather/" target="_blank">LIVE DEMO</a></p>
-<p>Do not judge strictly :)</p>
-<h3>Have fun! :)</h3>
+## Features
+
+- react (router, classes)
+- mobx
+- REST API (Ipapi, Ipwhois, Visicom, Openweathermap)
+- sass, bootstrap
+- webpack
+
+## Demo
+
+You can see live demo in [here](http://w99762ln.beget.tech/react-weather/)
+
+## Usage
+
+Clone this repo or download Zip and extract, then do it:
+
+```
+- run - "npm i"
+- run - "npm run d" for start development server
+or
+- run - "npm run b" for building project
+```
